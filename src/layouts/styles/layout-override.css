@@ -49,3 +49,17 @@ ul#nav li {
   display: inline-flex;
   padding: 1.4em;
 }
+
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+  display: inline-block;
+  line-height: 32px;
+	text-decoration: none;
+  text-align: left;
+}
+
+ul#nav li:hover { background-color: rgba(0, 0, 0, 0.178) !important; }
+ul#nav li:active { background-color: rgba(0, 0, 0, 0.267) !important; }
+ul#nav li.current a { color: rgb(189, 91, 26); }
