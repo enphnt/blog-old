@@ -47,7 +47,7 @@ header {
 
 ul#nav li {
   display: inline-flex;
-  padding: 1.4em;
+  padding: .95em;
 }
 
 ul#nav li a {
