@@ -16,7 +16,7 @@ const Header = () => (
         <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
         <ul id="nav" className="nav">
-          <li className="current"><a href="#home">Home</a></li>
+          <li className="current"><a href="https://enphnt.github.io">Home</a></li>
           <li><a href="https://enphnt.github.io/#about">About</a></li>
           <li><a href="https://enphnt.github.io/#resume">Resume</a></li>
           <li><a href="https://enphnt.github.io/#portfolio">Works</a></li>
