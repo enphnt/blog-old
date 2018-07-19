@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 const Header = () => (
   <div
@@ -9,25 +8,26 @@ const Header = () => (
       borderBottom: '2px solid #e6e6e6',
     }}
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 980,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0, textAlign: 'center', fontSize: '18px' }}>
-        <Link
-          to="/"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
-          Nathan Phennel Blog
-        </Link>
-      </h1>
-    </div>
+    <header id="home">
+
+      <nav id="nav-wrap">
+
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" className="nav">
+          <li className="current"><a href="#home">Home</a></li>
+          <li><a href="https://enphnt.github.io/#about">About</a></li>
+          <li><a href="https://enphnt.github.io/#resume">Resume</a></li>
+          <li><a href="https://enphnt.github.io/#portfolio">Works</a></li>
+          <li><a href="https://enphnt.github.io/#testimonials">Testimonials</a></li>
+          <li><a href="#home">Blog</a></li>
+          <li><a href="https://enphnt.github.io/#contact">Contact</a></li>
+        </ul>
+
+      </nav>
+
+    </header>
   </div>
 );
 
