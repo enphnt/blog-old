@@ -1,6 +1,6 @@
 ---
 path: "/git-into-testing-with-worktree"
-date: "2017-07-12T17:12:33.962Z"
+date: "2018-08-06T17:12:33.962Z"
 title: "Git into testing with `git worktree`"
 ---
 
