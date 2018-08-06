@@ -1,7 +1,7 @@
 ---
 path: "/git-into-testing-with-worktree"
 date: "2018-07-06T17:12:33.962Z"
-title: "Git into testing with `git worktree`"
+title: "Get Back to the Future painlessly with git worktree"
 ---
 
 Git can sometimes make your head spin. I know I am safe in assuming that im not alone in the feeling because of the fact that sites like <a href="https://ohshitgit.com">Oh Shit Git</a> exist.
