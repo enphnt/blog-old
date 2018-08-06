@@ -7,7 +7,7 @@ title: "Git into testing with `git worktree`"
 Git can sometimes make your head spin. I know I am safe in assuming that im not alone in the feeling because of the fact that sites like this exist: https://ohshitgit.comp
 
 <div style="text-align:center">
-  <img src="../images/ohshitgit.jpg" alt="ohshitgit.com">
+  <img src="../images/ohshitgit.jpg" alt="ohshitgit.com" width="500px">
 </div>
 
 Git is fast, scalable, and distributed so its awesome for projects from tiny to quite large (note that its not super performant for repos >1gb or files >100mb).
