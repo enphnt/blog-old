@@ -68,8 +68,7 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   transition: transform .4s,box-shadow .5s;
   animation: 1s ease-out 0s 1 slideUpFade;
   background: #fff;
-  box-shadow: 4px 1px 12px 3px rgba(0,0,0,.08);
-  border-radius: 5px;
+  box-shadow: 4px 1px 12px 3px rgba(255, 255, 255, 0.08);
   overflow: hidden;
   padding: 0.5rem;
   margin-bottom: 25px;
