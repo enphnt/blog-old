@@ -4,7 +4,7 @@ date: "2018-07-06T17:12:33.962Z"
 title: "Get Back to the Future painlessly with git worktree"
 ---
 
-Git can sometimes make your head spin. I know I am safe in assuming that im not alone in the feeling because of the fact that sites like <a href="https://ohshitgit.com">Oh Shit Git</a> exist.
+Git can sometimes make your head spin. I know I am safe in assuming that I'm not alone in this feeling because of the fact that sites like <a href="https://ohshitgit.com">Oh Shit Git</a> exist.
 
 <div style="text-align:center">
   <img src="../images/ohshitgit.jpg" alt="ohshitgit.com" width="500px">
