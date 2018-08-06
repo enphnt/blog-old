@@ -13,15 +13,15 @@ const Layout = ({ children }) => (
     <Helmet
       title="Nathan Phennel"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: "Nathan Phennel's blog." },
+        { name: 'keywords', content: 'software testing, software quality, javascript, software engineer in test' },
       ]}
     />
     <Header />
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 980,
+        maxWidth: 1180,
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -48,7 +48,7 @@ const Layout = ({ children }) => (
               <div
                 style={{
                   margin: '0 auto',
-                  maxWidth: 980,
+                  maxWidth: 1180,
                   display: 'flex',
                   flexDirection: 'row',
                   justifyContent: 'space-between',
@@ -61,11 +61,11 @@ const Layout = ({ children }) => (
                 </div>
                 <div style={{ flex: 1 }}>
                   <Sidebar
-                    title="Nathan Phennel Ad"
-                    description="Articles on whatever peaks my interest which can include software development, music, film or many other random interests."
+                    title="Hi, I'm Nathan 👋🏻"
+                    description="I use this space for writing on anything that peaks my interest which can include software development, music, film or many other random interests."
                   />
                   <Sidebar
-                    title="About author"
+                    title="Who am I? "
                     description="I am a Test Engineer working with all kinds of tools to make test automation better."
                   />
                 </div>
