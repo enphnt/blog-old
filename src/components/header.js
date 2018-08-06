@@ -21,7 +21,7 @@ const Header = () => (
           <li><a href="https://enphnt.github.io/#resume">Resume</a></li>
           <li><a href="https://enphnt.github.io/#portfolio">Works</a></li>
           <li><a href="https://enphnt.github.io/#testimonials">Testimonials</a></li>
-          <li className="current"><a href="#home">Blog</a></li>
+          <li className="current"><a href="https://enphnt.github.io/blog">Blog</a></li>
           <li><a href="https://enphnt.github.io/#contact">Contact</a></li>
         </ul>
 

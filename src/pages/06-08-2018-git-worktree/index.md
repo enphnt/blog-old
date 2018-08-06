@@ -4,7 +4,7 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Git into testing with `git worktree`"
 ---
 
-Git can sometimes make your head spin. I know I am safe in assuming that im not alone in the feeling because of the fact that sites like this exist: https://ohshitgit.comp
+Git can sometimes make your head spin. I know I am safe in assuming that im not alone in the feeling because of the fact that sites like <a href="https://ohshitgit.com">Oh Shit Git</a> exist.
 
 <div style="text-align:center">
   <img src="../images/ohshitgit.jpg" alt="ohshitgit.com" width="500px">
