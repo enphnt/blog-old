@@ -6,7 +6,7 @@ title: "Git into testing with worktree"
 Git can sometimes make your head spin. i know I am safe in assuming that im not alone in the feeling because sites like this exist: https://ohshitgit.com.
 
 <div style="text-align:center">
-<img src="./ohshitgit.jpg" alt="ohshitgit.jpg" width="500px" align="middle"/>
+<img src="ohshitgit.jpg" alt="ohshitgit.jpg" width="500px" align="middle"/>
 </div>
 
 
