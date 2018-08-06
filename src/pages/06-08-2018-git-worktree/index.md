@@ -4,9 +4,11 @@ date: "2017-07-12T17:12:33.962Z"
 title: "Git into testing with `git worktree`"
 ---
 
-Git can sometimes make your head spin. i know I am safe in assuming that im not alone in the feeling because sites like this exist: https://ohshitgit.com.
+Git can sometimes make your head spin. i know I am safe in assuming that im not alone in the feeling because sites like this exist: https://ohshitgit.comp
 
-![ohshitgit.com](../images/ohshitgit.jpg)
+<div style="text-align:center">
+  <img src="../images/ohshitgit.jpg" alt="ohshitgit.com">
+</div>
 
 Git is fast, scalable, and distributed so its awesome for projects from tiny to quite large (note that its not super performant for repos >1gb or files >100mb).
 
@@ -20,8 +22,9 @@ This command lets us manage multiple working trees (think, multiple local clones
 
 The utility of the command is in allowing you to locally check out more than one branch at a time. A new working tree is created in the directory specified in the command and associated it's with the repository. This new working tree is called a "linked working tree" as opposed to the "main working tree" resulting from "git init" or "git clone". every git repository has one "main" working tree association (assuming it's not a special case like a bare repository) and any number (0-whatever) associated "linked" working trees.
 
-![brace-yourself](../images/brace.jpg)
-
+<div style="text-align:center">
+  <img src="../images/brace.jpg" alt="brace-yourself">
+</div>
 
 So, when your testing some bug fix or new feature, you may find it useful to compare the software behaviour before and after the fix was applied. Similarly, this can be quite useful for developers to make tweaks and ensure no regression is introduced inadvertently.
 
