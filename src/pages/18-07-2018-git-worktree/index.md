@@ -5,7 +5,7 @@ title: "Git into testing with worktree"
 ---
 Git can sometimes make your head spin. i know I am safe in assuming that im not alone in the feeling because sites like this exist: https://ohshitgit.com.
 
-![ohshitgit.com](./ohshitgit.jpg)
+![ohshitgit.com](./static/images/ohshitgit.JPG)
 
 Time travel is often a reference point for git's complexity but I'd argue that its rich command options make it quite robust for handling all sorts of situations. Git is fast, scalable, and distributed so its awesomw for projects from tiny to quite large (its not super performant for repos >1gb or files >100mb).
 
