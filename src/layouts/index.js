@@ -39,38 +39,38 @@ const Layout = ({ children }) => (
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 height: '100%',
-                padding: '25px',
+                padding: '0 25px',
               }}
             >
               <div style={{ flex: 1 }}>{children()}</div>
             </div>
           ) : (
-              <div
-                style={{
-                  margin: '0 auto',
-                  maxWidth: 1180,
-                  display: 'flex',
-                  flexDirection: 'row',
-                  justifyContent: 'space-between',
-                  height: '100%',
-                  padding: '25px',
-                }}
-              >
-                <div style={{ flex: 2.5, paddingRight: '30px' }}>
-                  {children()}
-                </div>
-                <div style={{ flex: 1 }}>
-                  <Sidebar
-                    title="Hi, I'm Nathan 👋🏻"
-                    description="I use this space for writing on anything that peaks my interest which can include software development, music, film or many other random interests."
-                  />
-                  <Sidebar
-                    title="Who am I? "
-                    description="I am a Test Engineer working with all kinds of tools to make test automation better."
-                  />
-                </div>
+            <div
+              style={{
+                margin: '0 auto',
+                maxWidth: 1180,
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                height: '100%',
+                padding: '25px',
+              }}
+            >
+              <div style={{ flex: 2.5, paddingRight: '30px' }}>
+                {children()}
               </div>
-            )
+              <div style={{ flex: 1 }}>
+                <Sidebar
+                  title="Hi, I'm Nathan 👋🏻"
+                  description="I use this space for writing on anything that peaks my interest which can include software development, music, film or many other random interests."
+                />
+                <Sidebar
+                  title="Who am I? "
+                  description="I am a Test Engineer working with all kinds of tools to make test automation better."
+                />
+              </div>
+            </div>
+          )
         }
       </Media>
     </div>

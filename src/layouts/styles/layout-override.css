@@ -65,11 +65,41 @@ ul#nav li:active { background-color: rgba(0, 0, 0, 0.267) !important; }
 ul#nav li.current a { color: rgb(189, 91, 26); }
 
 .sidebar {
-  transition: transform .4s,box-shadow .5s;
-  animation: 1s ease-out 0s 1 slideUpFade;
+  transition: transform .5s,box-shadow .5s;
+  animation: 1s ease-out 1s 1 slideUpFade;
   background: #fff;
   box-shadow: 4px 1px 12px 3px rgba(255, 255, 255, 0.08);
   overflow: hidden;
   padding: 0.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  height: 30px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.breadcrumb-link {
+  font-size: .75em;
+  text-decoration: none;
+  padding-right: 2px;
+  color: rgba(189, 91, 26, 0.74);
+  font-weight: 200;
+  font-kerning:auto;
+}
+
+.breadcrumb-link:hover{
+  text-decoration: underline;
+}
+
+.breadcrumb-link-separator {
+  font-size: .75em;
+  margin: 0 4px;
+  font-weight: 200;
 }
