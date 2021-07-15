@@ -62,11 +62,11 @@ const Layout = ({ children }) => (
               <div style={{ flex: 1 }}>
                 <Sidebar
                   title="Hi, I'm Nathan 👋🏻"
-                  description="I use this space for writing on anything that peaks my interest which can include software development, music, film or many other random interests."
+                  description="I use this space for writing down things I want to remember for future reference."
                 />
                 <Sidebar
                   title="Who am I? "
-                  description="I am a Test Engineer working with all kinds of tools to make test automation better."
+                  description="A Software Dev that's always learning about random things."
                 />
               </div>
             </div>

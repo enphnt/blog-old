@@ -1,5 +1,5 @@
 ---
-path: "/git-into-testing-with-worktree"
+path: "/git-worktree"
 date: "2021-07-06T17:12:33.962Z"
 title: "Get Back to the Future painlessly with git worktree"
 ---

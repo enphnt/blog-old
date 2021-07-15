@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
 import '../templates/styles/blog-listing.css';
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -11,11 +10,15 @@ export default function Index({ data }) {
         .map(({ node: post }) => {
           return (
             <div className="blog-post-preview" key={post.id}>
-              <h1>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>Last Updated: {post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
+              {/* expects all imgs are called {post.frontmatter.path}.png inside public/images/ for now */}
+              <img src={`./images${post.frontmatter.path}.png`} />
+              <div>
+                <h1>
+                  <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                </h1>
+                <h2>Last Updated: {post.frontmatter.date}</h2>
+                <p>{post.excerpt}</p>
+              </div>
             </div>
           );
         })}

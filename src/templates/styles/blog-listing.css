@@ -1,9 +1,22 @@
 div.blog-post-preview {
-  border-bottom: 2px solid #e6e6e6;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  box-shadow: 1px 2px 3px #999;
 }
+
+.blog-post-preview img {
+  margin: 18px;
+  padding: 0px;
+  min-width: 140px;
+  height: 140px;
+}
+
+.blog-post-preview a {
+  line-height: 1em;
+}
+
 h1 > * {
   font-size: 1.2rem;
   text-decoration-line: none;
