@@ -12,6 +12,10 @@
       "path---git-worktree-2a64fe4f0cc675be1fba.js",
       "path---git-worktree-2a64fe4f0cc675be1fba.js.map"
     ],
+    "path---css-animations": [
+      "path---css-animations-59cd9a72837a1358460f.js",
+      "path---css-animations-59cd9a72837a1358460f.js.map"
+    ],
     "path---": [
       "path----a09ac7f620c7d624c34a.js",
       "path----a09ac7f620c7d624c34a.js.map"
@@ -29,8 +33,8 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-a2bbbeb57d5c43887079.js",
-      "path---index-a2bbbeb57d5c43887079.js.map"
+      "path---index-0cf3ad043c798ffb7635.js",
+      "path---index-0cf3ad043c798ffb7635.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -51,9 +55,9 @@
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-4abe09815bb256e068c5.js",
+      "app-2384d24cd0890933cf9e.js",
       "build-js-styles.css",
-      "app-4abe09815bb256e068c5.js.map",
+      "app-2384d24cd0890933cf9e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
