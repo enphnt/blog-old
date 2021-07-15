@@ -7,7 +7,7 @@ title: "Get Back to the Future painlessly with git worktree"
 Git can sometimes make your head spin. I know I am safe in assuming that I'm not alone in this feeling because of the fact that sites like <a href="https://ohshitgit.com">Oh Shit Git</a> exist.
 
 <div style="text-align:center">
-  <img src="../images/ohshitgit.jpg" alt="ohshitgit.com" width="500px">
+  <img src="../../static/images/ohshitgit.jpg" alt="ohshitgit.com" width="500px">
 </div>
 
 Git is fast, scalable, and distributed so its awesome for projects from tiny to quite large (note that its not super performant for repos >1gb or files >100mb).
