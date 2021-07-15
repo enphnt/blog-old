@@ -53,7 +53,7 @@ const Layout = ({ children }) => (
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 height: '100%',
-                padding: '25px',
+                padding: '0 25px 75px 25px',
               }}
             >
               <div style={{ flex: 2.5, paddingRight: '30px' }}>
