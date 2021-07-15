@@ -11,11 +11,10 @@ export default function Index({ data }) {
         .map(({ node: post }) => {
           return (
             <Link to={post.frontmatter.path} className="blog-post-preview" key={post.id}>
-              {/* expects all imgs are called {post.frontmatter.path}.png inside public/images/ for now */}
               <img src={`static/images${post.frontmatter.path}.png`} />
               <div>
-                <h1>
-                  <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                <h1 style={{ lineHeight: "1em" }}>
+                  {post.frontmatter.title}
                 </h1>
                 <h2>Last Updated: {post.frontmatter.date}</h2>
                 <p>{post.excerpt}</p>
