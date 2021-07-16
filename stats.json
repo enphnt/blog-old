@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-b3dad674b1ab8dc294cd.js",
-      "component---src-pages-index-js-b3dad674b1ab8dc294cd.js.map"
+      "component---src-pages-index-js-74ff30dc37218a983eea.js",
+      "component---src-pages-index-js-74ff30dc37218a983eea.js.map"
     ],
     "path---gitlab-ci": [
       "path---gitlab-ci-c5eb081481a2a7959455.js",
@@ -33,22 +33,26 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-a9bfaa551bc8408f4cad.js",
-      "path---index-a9bfaa551bc8408f4cad.js.map"
+      "path---index-ca5db344954bf6f79972.js",
+      "path---index-ca5db344954bf6f79972.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "path---internet-speed": [
-      "path---internet-speed-38bed138bf1fa17daefd.js",
-      "path---internet-speed-38bed138bf1fa17daefd.js.map"
+      "path---internet-speed-256d13bad3f763e7d650.js",
+      "path---internet-speed-256d13bad3f763e7d650.js.map"
     ],
     "commons": [
       "commons-403258ad126d5c26671b.js",
       "build-js-styles.css",
       "commons-403258ad126d5c26671b.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---vst-plugins": [
+      "path---vst-plugins-3cdb3a46e02d86e91741.js",
+      "path---vst-plugins-3cdb3a46e02d86e91741.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -59,9 +63,9 @@
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-605be854606db9a92697.js",
+      "app-c580dc2d41b9ac8a8f4a.js",
       "build-js-styles.css",
-      "app-605be854606db9a92697.js.map",
+      "app-c580dc2d41b9ac8a8f4a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
