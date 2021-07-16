@@ -70,8 +70,10 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   background: #fff;
   box-shadow: 4px 1px 12px 3px rgba(255, 255, 255, 0.08);
   overflow: hidden;
-  padding: 0.5rem;
+  padding: 0.5em;
   margin-bottom: 50px;
+  border-style: solid dashed;
+  border-color: #ccc;
 }
 
 .breadcrumbs {
