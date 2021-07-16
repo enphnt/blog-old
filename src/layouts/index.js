@@ -8,13 +8,15 @@ import Sidebar from '../components/sidebar';
 import './index.css';
 import './styles/layout-override.css';
 
+const title = "Nathan Phennel's Blog";
+
 const Layout = ({ children }) => (
   <div>
     <Helmet
-      title="Nathan Phennel"
+      title={title}
       meta={[
-        { name: 'description', content: "Nathan Phennel's blog." },
-        { name: 'keywords', content: 'software testing, software quality, javascript, software engineer in test' },
+        { name: 'description', content: title },
+        { name: 'keywords', content: 'software testing, software development, javascript, software engineer in test' },
       ]}
     />
     <Header />

@@ -1,6 +1,6 @@
 ---
 path: "/css-animations"
-date: "2021-07-16T17:12:33.962Z"
+date: "2019-01-16T17:12:33.962Z"
 title: "CSS Animations can be mesmerizing"
 ---
 

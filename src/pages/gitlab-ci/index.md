@@ -1,6 +1,6 @@
 ---
 path: "/gitlab-ci"
-date: "2021-07-10T17:12:33.962Z"
+date: "2018-10-10T17:12:33.962Z"
 title: "Getting started with gitlab-ci.yml"
 ---
 

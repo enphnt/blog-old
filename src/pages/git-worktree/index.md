@@ -1,6 +1,6 @@
 ---
 path: "/git-worktree"
-date: "2021-07-06T17:12:33.962Z"
+date: "2018-07-06T17:12:33.962Z"
 title: "Get Back to the Future painlessly with git worktree"
 ---
 
@@ -28,7 +28,7 @@ The utility of the command is in allowing you to locally check out more than one
 
 So, when your testing some bug fix or new feature, you may find it useful to compare the software behaviour before and after the fix was applied. Similarly, this can be quite useful for developers to make tweaks and ensure no regression is introduced inadvertently.
 
-The basic worflow I find myself using is:
+The basic workflow I find myself using is:
 
 ```
 # Checkout new feature branch
@@ -44,7 +44,7 @@ $ cd ../thingy
 # Build and start, and test using the new feature branch for comparison
 ```
 
-I find that I typically spend most of my time comparing (step 6). However, sometimes urgent issues or 'hot-fixes' are sent my way. In those cases, I use git worktree for both the feature branch under test as well as the "previous-behavour" branch. This is great because it allows me to context switch with less frustration, no stashing, temp commits, aborting merge conflicts, etc.
+I find that I typically spend most of my time comparing (step 6). However, sometimes urgent issues or 'hot-fixes' are sent my way. In those cases, I use git worktree for both the feature branch under test as well as the "previous-behaviour" branch. This is great because it allows me to context switch with less frustration, no stashing, temp commits, aborting merge conflicts, etc.
 
 Developers also can use `git worktree` for quick reacting to production issues or other urgent matters requiring a hot-fix. This workflow illustrates how that is accomplished:
 ```
