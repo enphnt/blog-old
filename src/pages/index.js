@@ -17,7 +17,7 @@ export default function Index({ data }) {
                   {post.frontmatter.title}
                 </h1>
                 <h2>Last Updated: {post.frontmatter.date}</h2>
-                <p>{post.excerpt}</p>
+                <p style={{ paddingRight: 10 }}>{post.excerpt}</p>
               </div>
             </Link>
           );
@@ -31,7 +31,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 180)
           id
           frontmatter {
             title
