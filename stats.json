@@ -5,16 +5,16 @@
       "component---src-pages-index-js-b3dad674b1ab8dc294cd.js.map"
     ],
     "path---gitlab-ci": [
-      "path---gitlab-ci-d050ebbedf003902f08b.js",
-      "path---gitlab-ci-d050ebbedf003902f08b.js.map"
+      "path---gitlab-ci-c5eb081481a2a7959455.js",
+      "path---gitlab-ci-c5eb081481a2a7959455.js.map"
     ],
     "path---git-worktree": [
-      "path---git-worktree-2a64fe4f0cc675be1fba.js",
-      "path---git-worktree-2a64fe4f0cc675be1fba.js.map"
+      "path---git-worktree-943094710ff6a06369e5.js",
+      "path---git-worktree-943094710ff6a06369e5.js.map"
     ],
     "path---css-animations": [
-      "path---css-animations-59cd9a72837a1358460f.js",
-      "path---css-animations-59cd9a72837a1358460f.js.map"
+      "path---css-animations-bcd23bc8faa3ec77aa15.js",
+      "path---css-animations-bcd23bc8faa3ec77aa15.js.map"
     ],
     "path---": [
       "path----a09ac7f620c7d624c34a.js",
@@ -25,20 +25,24 @@
       "component---src-templates-blog-post-js-e836b901ac1d2c2551a1.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4881a4e96ba088ef7938.js",
-      "component---src-layouts-index-js-4881a4e96ba088ef7938.js.map"
+      "component---src-layouts-index-js-fa56a4876559803645ee.js",
+      "component---src-layouts-index-js-fa56a4876559803645ee.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-0cf3ad043c798ffb7635.js",
-      "path---index-0cf3ad043c798ffb7635.js.map"
+      "path---index-a9bfaa551bc8408f4cad.js",
+      "path---index-a9bfaa551bc8408f4cad.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "path---internet-speed": [
+      "path---internet-speed-38bed138bf1fa17daefd.js",
+      "path---internet-speed-38bed138bf1fa17daefd.js.map"
     ],
     "commons": [
       "commons-403258ad126d5c26671b.js",
@@ -55,9 +59,9 @@
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-2384d24cd0890933cf9e.js",
+      "app-605be854606db9a92697.js",
       "build-js-styles.css",
-      "app-2384d24cd0890933cf9e.js.map",
+      "app-605be854606db9a92697.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
