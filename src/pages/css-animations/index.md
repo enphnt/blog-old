@@ -21,6 +21,8 @@ I wanted to demonstrate one example here:
 
 This is just a super basic example and things can get even more weird. I'll leave it here for now but I think this can be applied to all sorts of things like animating notifications, button clicks (like in Material UI), or even use this when images are lazy loaded when scrolled into view.
 
-<p class="slide-in-text">
-  Until next time...
-</p>
+<div style="width: 200px; overflow: hidden">
+  <p class="slide-in-text">
+    Until next time...
+  </p>
+</div>

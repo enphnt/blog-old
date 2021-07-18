@@ -110,8 +110,8 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   padding: 50px;
 }
 .css-animation {
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   margin: 0 auto;
   background-color: purple;
   animation-name: stretch;
