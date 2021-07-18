@@ -80,9 +80,10 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
-  width: 70%;
-  height: 30px;
+  align-items: baseline;
+  overflow: hidden;
+  width: 100%;
+  height: 1.1em;
   margin-bottom: 16px;
   text-transform: uppercase;
 }
