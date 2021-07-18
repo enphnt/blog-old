@@ -36,22 +36,27 @@ $ git checkout origin/feature/thingy
 
 # Build and start, and test new feature
 
-$ git worktree add -b feature/thingy/old-behaviour ..thingy origin/master
+$ git worktree add -b feature/thingy/old
+  ..thingy origin/master
 
 $ cd ../thingy
-# Switched to a new branch 'feature/thingy/old-behaviour'
+# Switched to a new branch
+  'feature/thingy/old'
 
-# Build and start, and test using the new feature branch for comparison
+# Build and start, and test
+  using the new feature branch
 ```
 
 I find that I typically spend most of my time comparing (step 6). However, sometimes urgent issues or 'hot-fixes' are sent my way. In those cases, I use git worktree for both the feature branch under test as well as the "previous-behaviour" branch. This is great because it allows me to context switch with less frustration, no stashing, temp commits, aborting merge conflicts, etc.
 
 Developers also can use `git worktree` for quick reacting to production issues or other urgent matters requiring a hot-fix. This workflow illustrates how that is accomplished:
 ```
-$ git worktree add -b hotfix ../hotfix origin/master
+$ git worktree add -b hotfix
+  ../hotfix origin/master
 
 # Enter ../hotfix (identifier hotfix)
-# Branch hotfix set up to track remote branch master from origin.
+# Branch hotfix set up to track
+  remote branch master from origin.
 
 $ cd ../hotfix
 # Switched to a new branch 'hotfix'

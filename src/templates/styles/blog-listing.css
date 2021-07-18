@@ -10,7 +10,7 @@
 .blog-post-preview img {
   margin: 18px;
   padding: 0px;
-  min-width: 140px;
+  width: 140px;
   height: 140px;
 }
 
@@ -25,4 +25,32 @@ h1 > * {
 h2 {
   font-size: 0.8rem !important;
   font-weight: 100 !important;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 75%;
+    line-height: 1.7em;
+  }
+
+  .blog-post-preview {
+    flex-direction: column;
+    padding: 4px;
+  }
+
+  .blog-post-preview h1 {
+    margin-bottom: 6px;
+  }
+
+  .blog-post-preview p {
+    font-size: 85%;
+  }
+
+  .blog-post-preview img {
+    margin: 4px;
+    align-self: center;
+    padding-bottom: 4px;
+    width: 100px;
+    height: 100px;
+  }
 }
