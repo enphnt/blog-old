@@ -55,6 +55,7 @@ b,
 strong {
   font-weight: inherit;
   font-weight: bolder;
+  background-color: inherit;
 }
 dfn {
   font-style: italic;
