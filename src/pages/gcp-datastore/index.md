@@ -39,8 +39,11 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
 
 ![gcloud-app-browse-datastore.png](static/images/gcloud-app-browse-datastore.png)
 6. Inspect the Datastore via the console:
-    - Navigate to your project in GCP: `https://console.cloud.google.com/home/dashboard?project=nodejs-datastore-320303`
-    - Note the latest build status by going to the Cloud Build section of GCP: `https://console.cloud.google.com/cloud-build/builds?project=nodejs-datastore-320303`
-    - Check out the latest Datastore entries added: `https://console.cloud.google.com/datastore/entities;kind=visit;ns=__$DEFAULT$__/query/kind?project=nodejs-datastore-320303`
+    - Navigate to your project in GCP:
+    `https://console.cloud.google.com/home/dashboard?project=nodejs-datastore-320303`
+    - Note the latest build status by going to the Cloud Build section of GCP:
+    `https://console.cloud.google.com/cloud-build/builds?project=nodejs-datastore-320303`
+    - Check out the latest Datastore entries added:
+    `https://console.cloud.google.com/datastore/entities;kind=visit;ns=__$DEFAULT$__/query/kind?project=nodejs-datastore-320303`
 
 ![datastore-entities.png](static/images/datastore-entities.png)
