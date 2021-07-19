@@ -13,4 +13,31 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
   <strong>Note:</strong> Datastore is already on the way out! Soon all datastores will be automatically upgraded to Firestore, a faster more consistent solution.
 </div>
 
-#### When to use it
+#### How to use it: A simple node.js example
+1. Clone the example app and `cd` into it:
+    - `git clone https://github.com/GoogleCloudPlatform/nodejs-docs-samples`
+    - `cd nodejs-docs-samples/appengine/datastore`
+2. Add the `@google-cloud/datastore` dependency to the `package.json`
+  <pre>
+    "dependencies": {
+      "@google-cloud/datastore": "^6.0.0",
+      "express": "^4.16.4"
+    }
+  </pre>
+3. Get a grip on the App code:
+    - This [sample app code](https://github.com/GoogleCloudPlatform/nodejs-docs-samples/blob/f04f6c62ca54fe07d6eadde92902dc2bfdb0a9fa/appengine/datastore/app.js) will log, retrieve, and display visitor IP addresses.
+    - Each log entry is a 2-field class that's given the type `visit`.
+    - Log entries are saved to Datastore using the [`save` command](https://googleapis.dev/nodejs/datastore/latest/Datastore.html#save).
+    - The 10 most recent visits are retrieved in descending order using the Dataset [`runQuery` command](https://googleapis.dev/nodejs/datastore/latest/Datastore.html#runQuery).
+4. Deploy the App:
+    - I needed to copy the `app.yaml` files from the `hello-world` standard example into this project first... 🤷‍♂️ (no idea why its not included here by default)
+    - In GCP console, add a project to use.
+    - set the current active project to use the new project: `gcloud config set project [project_id]
+    - run `gcloud app deploy`
+5. Browse your new app: `gcloud app browse`
+![gcloud-app-browse-datastore.png](static/images/gcloud-app-browse-datastore.png)
+6. Inspect the Datastore via the console:
+    - Navigate to your project in GCP: `https://console.cloud.google.com/home/dashboard?project=nodejs-datastore-320303`
+    - Note the latest build status by going to the Cloud Build section of GCP: `https://console.cloud.google.com/cloud-build/builds?project=nodejs-datastore-320303`
+    - Check out the latest Datastore entries added: `https://console.cloud.google.com/datastore/entities;kind=visit;ns=__$DEFAULT$__/query/kind?project=nodejs-datastore-320303`
+    - ![datastore-entities.png](static/images/datastore-entities.png)
