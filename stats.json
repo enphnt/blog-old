@@ -33,8 +33,8 @@
       "path---page-2-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
-      "path---index-ca5db344954bf6f79972.js",
-      "path---index-ca5db344954bf6f79972.js.map"
+      "path---index-2fe807962fc88ebcc6e7.js",
+      "path---index-2fe807962fc88ebcc6e7.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -62,15 +62,23 @@
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
+    "path---gcp-datastore": [
+      "path---gcp-datastore-595594338f5425e83061.js",
+      "path---gcp-datastore-595594338f5425e83061.js.map"
+    ],
     "app": [
-      "app-c580dc2d41b9ac8a8f4a.js",
+      "app-e7d40730083edee0c967.js",
       "build-js-styles.css",
-      "app-c580dc2d41b9ac8a8f4a.js.map",
+      "app-e7d40730083edee0c967.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---gcp-nodejs-hello-world": [
+      "path---gcp-nodejs-hello-world-bb146ccd4608dddf7ea0.js",
+      "path---gcp-nodejs-hello-world-bb146ccd4608dddf7ea0.js.map"
     ]
   }
 }
