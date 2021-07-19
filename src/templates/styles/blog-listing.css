@@ -1,14 +1,17 @@
 .blog-post {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .blog-post-preview {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   margin-bottom: 1rem;
   display: flex;
   box-shadow: 1px 2px 3px #999;
   text-decoration: none;
+  background-color: #f9f9f9;
+}
+
+.blog-post-preview * {
+  background-color: inherit;
 }
 
 .blog-post-preview img {
@@ -40,11 +43,6 @@ h2 {
   .blog-post-preview {
     flex-direction: column;
     padding: 16px;
-    background-color: #ededef;
-  }
-
-  .blog-post-preview * {
-    background-color: inherit;
   }
 
   .blog-post-preview h1 {
