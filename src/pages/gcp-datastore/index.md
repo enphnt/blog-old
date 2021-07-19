@@ -18,12 +18,13 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
     - `git clone https://github.com/GoogleCloudPlatform/nodejs-docs-samples`
     - `cd nodejs-docs-samples/appengine/datastore`
 2. Add the `@google-cloud/datastore` dependency to the `package.json`
-  <pre>
-    "dependencies": {
-      "@google-cloud/datastore": "^6.0.0",
-      "express": "^4.16.4"
-    }
-  </pre>
+
+<pre>
+"dependencies": {
+  "@google-cloud/datastore": "^6.0.0",
+  "express": "^4.16.4"
+}
+</pre>
 3. Get a grip on the App code:
     - This [sample app code](https://github.com/GoogleCloudPlatform/nodejs-docs-samples/blob/f04f6c62ca54fe07d6eadde92902dc2bfdb0a9fa/appengine/datastore/app.js) will log, retrieve, and display visitor IP addresses.
     - Each log entry is a 2-field class that's given the type `visit`.
@@ -35,9 +36,11 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
     - set the current active project to use the new project: `gcloud config set project [project_id]
     - run `gcloud app deploy`
 5. Browse your new app: `gcloud app browse`
+
 ![gcloud-app-browse-datastore.png](static/images/gcloud-app-browse-datastore.png)
 6. Inspect the Datastore via the console:
     - Navigate to your project in GCP: `https://console.cloud.google.com/home/dashboard?project=nodejs-datastore-320303`
     - Note the latest build status by going to the Cloud Build section of GCP: `https://console.cloud.google.com/cloud-build/builds?project=nodejs-datastore-320303`
     - Check out the latest Datastore entries added: `https://console.cloud.google.com/datastore/entities;kind=visit;ns=__$DEFAULT$__/query/kind?project=nodejs-datastore-320303`
-    - ![datastore-entities.png](static/images/datastore-entities.png)
+
+![datastore-entities.png](static/images/datastore-entities.png)
