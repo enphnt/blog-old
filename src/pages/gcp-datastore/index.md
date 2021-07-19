@@ -33,17 +33,15 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
 4. Deploy the App:
     - I needed to copy the `app.yaml` files from the `hello-world` standard example into this project first... 🤷‍♂️ (no idea why its not included here by default)
     - In GCP console, add a project to use.
-    - set the current active project to use the new project: `gcloud config set project [project_id]
+    - set the current active project to use the new project:
+    `gcloud config set project [project_id]`
     - run `gcloud app deploy`
 5. Browse your new app: `gcloud app browse`
 
 ![gcloud-app-browse-datastore.png](static/images/gcloud-app-browse-datastore.png)
 6. Inspect the Datastore via the console:
-    - Navigate to your project in GCP:
-    `https://console.cloud.google.com/home/dashboard?project=nodejs-datastore-320303`
-    - Note the latest build status by going to the Cloud Build section of GCP:
-    `https://console.cloud.google.com/cloud-build/builds?project=nodejs-datastore-320303`
+    - Navigate to your project in GCP.
+    - Note the latest build status by going to the Cloud Build section of GCP.
     - Check out the latest Datastore entries added:
-    `https://console.cloud.google.com/datastore/entities;kind=visit;ns=__$DEFAULT$__/query/kind?project=nodejs-datastore-320303`
 
 ![datastore-entities.png](static/images/datastore-entities.png)
