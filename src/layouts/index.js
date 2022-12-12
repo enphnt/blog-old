@@ -23,14 +23,14 @@ const Layout = ({ children }) => (
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 1180,
+        maxWidth: 1500,
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
         height: '100%',
       }}
     >
-      <Media query={{ maxWidth: 848 }}>
+      <Media query={{ maxWidth: 1148 }}>
         {matches =>
           matches ? (
             <div
@@ -50,7 +50,7 @@ const Layout = ({ children }) => (
             <div
               style={{
                 margin: '0 auto',
-                maxWidth: 1180,
+                maxWidth: 1500,
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
@@ -61,7 +61,7 @@ const Layout = ({ children }) => (
               <div style={{ flex: 2.5, paddingRight: '30px' }}>
                 {children()}
               </div>
-              <div style={{ flex: 1 }}>
+              <div style={{ flex: .66 }}>
                 <Sidebar
                   title="Hi, I'm Nathan 👋🏻"
                   description="I use this space for writing down things I want to remember for future reference."

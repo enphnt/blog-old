@@ -15,6 +15,7 @@ export default function Template({ data }) {
           <div className="breadcrumb-link-separator">{`>`}</div>
           <Link className="breadcrumb-link" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
         </div>
+        <h5>Last Updated: {post.frontmatter.date}</h5>
         <h1>{post.frontmatter.title}</h1>
         <div
           className="blog-post-content"

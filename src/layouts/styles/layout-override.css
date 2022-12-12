@@ -2,28 +2,36 @@
   background: #f8f8f8;
   color: rgb(66, 66, 66);
 }
+
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
 }
+
 h1 {
   font-size: 1.5rem;
   line-height: 1.4rem;
 }
-p, div {
+
+p,
+div {
   font-size: 16px;
 }
+
 header {
-   position: relative;
-   width: 100%;
-   background: #161415;
-   text-align: center;
-   overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: #161415;
+  text-align: center;
+  overflow: hidden;
 }
 
-#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
   margin: 0;
   padding: 0;
   outline: none;
@@ -40,10 +48,14 @@ header {
   z-index: 100;
 }
 
-.opaque { background-color: #333; }
+.opaque {
+  background-color: #333;
+}
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap>a.mobile-btn {
+  display: none;
+}
 
 ul#nav li {
   display: inline-flex;
@@ -52,25 +64,33 @@ ul#nav li {
 
 ul#nav li a {
 
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
   display: inline-block;
   line-height: 32px;
-	text-decoration: none;
+  text-decoration: none;
   text-align: left;
 }
 
-ul#nav li:hover { background-color: rgba(0, 0, 0, 0.178) !important; }
-ul#nav li:active { background-color: rgba(0, 0, 0, 0.267) !important; }
-ul#nav li.current a { color: rgb(189, 91, 26); }
+ul#nav li:hover {
+  background-color: rgba(0, 0, 0, 0.178) !important;
+}
+
+ul#nav li:active {
+  background-color: rgba(0, 0, 0, 0.267) !important;
+}
+
+ul#nav li.current a {
+  color: rgb(189, 91, 26);
+}
 
 .sidebar {
-  transition: transform .5s,box-shadow .5s;
+  transition: transform .5s, box-shadow .5s;
   animation: 1s ease-out 1s 1 slideUpFade;
   background: #fff;
   box-shadow: 4px 1px 12px 3px rgba(255, 255, 255, 0.08);
   overflow: hidden;
-  padding: 0.5em;
+  padding: 0.25em;
   margin-bottom: 50px;
   border-style: solid dashed;
   border-color: #ccc;
@@ -94,10 +114,10 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   padding-right: 2px;
   color: rgba(189, 91, 26, 0.74);
   font-weight: 200;
-  font-kerning:auto;
+  font-kerning: auto;
 }
 
-.breadcrumb-link:hover{
+.breadcrumb-link:hover {
   text-decoration: underline;
 }
 
@@ -106,10 +126,12 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
   margin: 0 4px;
   font-weight: 200;
 }
+
 .css-animation-container {
   margin: 30px;
   padding: 50px;
 }
+
 .css-animation {
   height: 150px;
   width: 150px;
@@ -131,9 +153,11 @@ ul#nav li.current a { color: rgb(189, 91, 26); }
     background-color: purple;
     border-radius: 100%;
   }
+
   50% {
     background-color: orange;
   }
+
   100% {
     transform: scale(1.5);
     background-color: aliceblue;
