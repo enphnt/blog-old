@@ -1,0 +1,267 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/blog/component---src-layouts-index-js-fec31376992d56c478da.js" as="script"/><link rel="preload" href="/blog/component---src-templates-blog-post-js-89e71b83f5b35e725d93.js" as="script"/><link rel="preload" href="/blog/path---react-hooks-b3187fc956d65c202902.js" as="script"/><link rel="preload" href="/blog/app-6910201a14d2a9c8c2e2.js" as="script"/><link rel="preload" href="/blog/commons-670c1c85e5d86505a7aa.js" as="script"/><title data-react-helmet="true">Nathan Phennel - Pop Quiz: What hooks do you know?</title><meta data-react-helmet="true" name="description" content="Nathan Phennel&#x27;s Blog"/><meta data-react-helmet="true" name="keywords" content="software testing, software development, javascript, software engineer in test"/><style id="gatsby-inlined-css">html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder;background-color:inherit}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em sans-serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt","kern"}img{max-width:100%;margin:0 0 1.45rem;padding:0}h1{font-size:2.25rem}h1,h2{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{margin:2rem 0 1.45rem;font-size:1.38316rem}h3,h4{padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{margin:2rem 0 .5rem;font-size:1rem}h5{font-size:.85028rem}h5,h6{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{margin:0 0 1.45rem;padding:0}ol,ul{margin:0 0 1.45rem 1.45rem;padding:0;list-style-position:outside;list-style-image:none}dd,dl{margin:0 0 1.45rem}dd,dl,p{padding:0}p{margin-left:0;margin-right:0;margin-top:0}figure{padding:0}figure,pre{margin:0 0 1.45rem}pre{font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:.45rem}table{font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset,table{margin:0 0 1.45rem;padding:0}blockquote{margin:0 1.45rem 1.45rem;padding:0}form,iframe,noscript{margin:0 0 1.45rem;padding:0}hr{margin:0 0 calc(1.45rem - 1px);padding:0;background:rgba(0,0,0,.2);border:none;height:1px}address{margin:0 0 1.45rem;padding:0}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:0;padding-top:.2em;padding-bottom:.2em}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:72%}code{line-break:"anywhere"}img{width:70%}}*{background:#f8f8f8;color:#424242}body,html{height:100%}h1{font-size:1.5rem;line-height:1.4rem}div,p{font-size:16px}header{position:relative;width:100%;background:#161415;text-align:center;overflow:hidden}#nav-wrap a,#nav-wrap li,#nav-wrap ul{margin:0;padding:0;outline:none;line-height:1em}#nav-wrap{font:12px opensans-bold,sans-serif;width:100%;text-transform:uppercase;letter-spacing:2.5px;margin:0 auto;z-index:100}.opaque{background-color:#333}#nav-wrap>a.mobile-btn{display:none}ul#nav li{display:-ms-inline-flexbox;display:inline-flex;padding:.95em}ul#nav li a{display:inline-block;line-height:32px;text-decoration:none;text-align:left}ul#nav li:hover{background-color:rgba(0,0,0,.178)!important}ul#nav li:active{background-color:rgba(0,0,0,.267)!important}ul#nav li.current a{color:#bd5b1a}.sidebar{transition:transform .5s,box-shadow .5s;animation:1s ease-out 1s 1 slideUpFade;background:#fff;box-shadow:4px 1px 12px 3px hsla(0,0%,100%,.08);overflow:hidden;padding:.25em;margin-bottom:50px;border-style:solid dashed;border-color:#ccc}.breadcrumbs{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-align:baseline;align-items:baseline;overflow:hidden;width:100%;height:1.1em;margin-bottom:16px;text-transform:uppercase}.breadcrumb-link{font-size:.75em;text-decoration:none;padding-right:2px;color:rgba(189,91,26,.74);font-weight:200;-webkit-font-feature-settings:auto;font-feature-settings:auto;-webkit-font-kerning:auto;font-kerning:auto}.breadcrumb-link:hover{text-decoration:underline}.breadcrumb-link-separator{font-size:.75em;margin:0 4px;font-weight:200}.css-animation-container{margin:30px;padding:50px}.css-animation{height:150px;width:150px;margin:0 auto;background-color:purple;animation-name:stretch;animation-duration:1.5s;animation-timing-function:ease-out;animation-delay:0;animation-direction:alternate;animation-iteration-count:infinite;animation-fill-mode:none;animation-play-state:running}@keyframes stretch{0%{transform:scale(.3);background-color:purple;border-radius:100%}50%{background-color:orange}to{transform:scale(1.5);background-color:#f0f8ff}}.slide-in-text{animation-duration:3s;animation-name:slidein;animation-iteration-count:infinite;animation-direction:alternate;overflow:hidden}@keyframes slidein{0%{margin-left:100%;width:300%}to{margin-left:0;width:100%}}.blog-post{margin-bottom:2em}.blog-post-preview{padding-top:1em;padding-bottom:.5em;margin-bottom:1rem;display:-ms-flexbox;display:flex;box-shadow:1px 2px 3px #999;text-decoration:none;background-color:#ededef}.blog-post-preview *{background-color:inherit}.blog-post-preview img{margin:18px;padding:0;width:140px;height:140px}.blog-post-preview a{line-height:1em}h1>*{font-size:1.2rem;-webkit-text-decoration-line:none;text-decoration-line:none}h2{font-size:.8rem!important;font-weight:100!important}@media only screen and (max-width:480px){html{font-size:75%;line-height:1.7em}.blog-post-preview{-ms-flex-direction:column;flex-direction:column;padding:16px}.blog-post-preview h1{margin-bottom:6px}.blog-post-preview p{font-size:85%}.blog-post-preview img{margin:4px;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;padding-bottom:4px;width:100px;height:100px}}.note{background-color:#e6e6fa;padding:14px;border-radius:4px;width:80%;margin-left:1em;margin-bottom:1em}</style></head><body><div id="___gatsby"><div data-reactroot="" data-reactid="1" data-react-checksum="-1654507592"><!-- react-empty: 2 --><div style="background:#f5f5f5;margin-bottom:3rem;border-bottom:2px solid #e6e6e6;box-shadow:6px 2px 24px 8px rgba(0,0,0,.08);" data-reactid="3"><header id="home" data-reactid="4"><nav id="nav-wrap" data-reactid="5"><a class="mobile-btn" href="#nav-wrap" title="Show navigation" data-reactid="6">Show navigation</a><a class="mobile-btn" href="#home" title="Hide navigation" data-reactid="7">Hide navigation</a><ul id="nav" class="nav" data-reactid="8"><li data-reactid="9"><a href="https://enphnt.github.io" data-reactid="10">Home</a></li><li data-reactid="11"><a href="https://enphnt.github.io/#about" data-reactid="12">About</a></li><li data-reactid="13"><a href="https://enphnt.github.io/#resume" data-reactid="14">Resume</a></li><li data-reactid="15"><a href="https://enphnt.github.io/#portfolio" data-reactid="16">Works</a></li><li data-reactid="17"><a href="https://enphnt.github.io/#testimonials" data-reactid="18">Testimonials</a></li><li class="current" data-reactid="19"><a href="https://enphnt.github.io/blog" data-reactid="20">Blog</a></li><li data-reactid="21"><a href="https://enphnt.github.io/#contact" data-reactid="22">Contact</a></li></ul></nav></header></div><div style="margin:0 auto;max-width:1500px;display:flex;flex-direction:row;justify-content:space-between;height:100%;" data-reactid="23"><div style="margin:0 auto;max-width:980px;display:flex;flex-direction:row;justify-content:space-between;height:100%;padding:0 25px;" data-reactid="24"><div style="flex:1;" data-reactid="25"><div class="blog-post-container" data-reactid="26"><!-- react-empty: 27 --><div class="blog-post" data-reactid="28"><div class="breadcrumbs" data-reactid="29"><a class="breadcrumb-link" href="/blog/" data-reactid="30">Home</a><div class="breadcrumb-link-separator" data-reactid="31">&gt;</div><a class="breadcrumb-link" href="/blog/react-hooks" data-reactid="32">Pop Quiz: What hooks do you know?</a></div><h5 data-reactid="33"><!-- react-text: 34 -->Last Updated: <!-- /react-text --><!-- react-text: 35 -->December 12, 2022<!-- /react-text --></h5><h1 data-reactid="36">Pop Quiz: What hooks do you know?</h1><div class="blog-post-content" data-reactid="37"><p>Recently, I spoke to a recruiter who was getting to know me. He's a super nice guy and we got along well. As we got deeper into the conversation, he asked me which hooks I've been using in my react development. To be honest, I drew a blank, "uh, you mean useState?"</p>
+<p>It wasn't a big deal that I didn't know. But now, I'm left wondering what all these glorious new hooks are that I can incorporate into my product. Ideally, I'll discover some ways to reduce some clutter and toss out some existing old-school React code snippers in favour of a hook.</p>
+<h3>What are these again?</h3>
+<p>The main idea is that hooks (since v16.8) let you use state and 'other' features without writing a class. In other words, FunctionComponents get the benefits of Class components.</p>
+<p>The motiation is that class components become unweildy and its hard to share logic between them. So hooks comes in as a much more direct API to get to all the React goodness without having to grasp classes or even <code>this</code>. 😅</p>
+<p>In many ways, hooks lower the bar to entry for React and lets devs focus more on function crafting.</p>
+<h4>Full list of hooks with the use detailed for each:</h4>
+<table>
+  <tr>
+    <th>Hook</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td>useState</td>
+    <td>
+      <pre>const [tick, setTick] = useState(0);</pre>
+      <div>This hooks is the one I know most. Use it to handle 'reactive' data. When data changes state, component will rerender.</div>
+    </td>
+  </tr>
+  <tr>
+    <td>useEffect</td>
+    <td>
+      This one let's you tap into the React lifecycle methods:
+<pre><code>  useEffect(() => {
+    /* ComponentDidMount code */
+  }, []);
+
+  useEffect(() => {
+    /* componentDidUpdate code */
+  }, [var1, var2]);
+
+  useEffect(() => {
+    return () => {
+    /* componentWillUnmount code */
+    }
+  }, []);
+</code></pre>
+<p>  Combine them all in one function:</p>
+<pre><code>  useEffect(() => {
+    /* componentDidMount code + componentDidUpdate code */
+
+    return () => {
+    /* componentWillUnmount code */
+    }
+  }, [var1, var2]);
+
+&#x3C;/td>
+</code></pre>
+  </tr>
+  <tr>
+    <td>useContext</td>
+    <td>
+      Want to pass data and avoid props? The example from React docs shows how we can pass the <code>value</code> from the <code>ThemeContextProvider\></code> so that its used by the child components.
+      </br>
+      </br>
+      Child components will always consume the <code>value</code> from the nearest parent provider component.
+<pre><code>  const themes = {
+    light: {
+      foreground: "#000000",
+      background: "#eeeeee"
+    },
+    dark: {
+      foreground: "#ffffff",
+      background: "#222222"
+    }
+  };
+
+  const ThemeContext = React.createContext(themes.light);
+
+  function App() {
+    return (
+      &#x3C;ThemeContext.Provider value={themes.dark}>
+        &#x3C;Toolbar />
+      &#x3C;/ThemeContext.Provider>
+    );
+  }
+
+  function Toolbar(props) {
+    return (
+      &#x3C;div>
+        &#x3C;ThemedButton />
+      &#x3C;/div>
+    );
+  }
+
+  function ThemedButton() {
+    const theme = useContext(ThemeContext);
+
+    return (
+      &#x3C;button
+        style={{ background: theme.background, color: theme.foreground }}
+      >
+        I am styled by theme context!
+      &#x3C;/button>
+    );
+  }
+</code></pre>
+  </td>
+  </tr>
+  <tr>
+    <td>useReducer</td>
+    <td>
+      An alternative way to set state using a reducer (<code>(state, action) => newState</code>). It returns the current state paired with a <code>dispatch</code> method. It's necessary when new state depends on old state.
+      </br>
+      </br>
+      The shape is like this:
+      </br>
+      <code>
+      const [state, dispatch] = useReducer(reducer, initialArg, init);
+      </code>
+      </br>
+      </br>
+      The React docs example uses a counter to demo the functionality:
+      </br>
+      <pre>
+        const initialState = {count: 0};
+      </br>
+        function reducer(state, action) {
+          switch (action.type) {
+            case 'increment':
+              return {count: state.count + 1};
+            case 'decrement':
+              return {count: state.count - 1};
+            default:
+              throw new Error();
+          }
+        }
+      </br>
+        function Counter() {
+          const [state, dispatch] = useReducer(reducer, initialState);
+          return (
+            &lt;>
+              Count: {state.count}
+              &lt;button onClick={() => dispatch({type: 'decrement'})}>
+                -
+              &lt;/button>
+              &lt;button onClick={() => dispatch({type: 'increment'})}>
+                +
+              &lt;/button>
+            &lt;/>
+          );
+        }
+      </pre>
+  </td>
+  </tr>
+  <tr>
+    <td>useMemo</td>
+    <td>
+      This one is useful for reducing performance costs of expensive functions.
+<pre><code>  const { useState, useMemo } = React;
+
+  const CalculateFactorial = () => {
+    const [num, setNum] = useState(0);
+
+    const getFactorial = val => {
+      if (val === 0) return 1;
+      return val * getFactorial(val - 1);
+    };
+
+    const calculatedFactorial = useMemo(() => {
+      return num ? getFactorial(num) : 0;
+    }, [num]);
+
+    return (
+      &#x3C;div>
+        &#x3C;section className="box">
+          &#x3C;div>Enter a number to calculate its factorial [n(n-1)]:&#x3C;/div>
+          &#x3C;input value={num} onChange={(e) =>
+            setNum(e.target.value)}
+          />
+        &#x3C;/section>
+        &#x3C;div className="box">Factorial: {calculatedFactorial}&#x3C;/div>
+      &#x3C;/div>
+    );
+  }
+
+  ReactDOM.render(&#x3C;CalculateFactorial />, document.getElementById('root'));
+</code></pre>
+  </br>
+      In this example, the expensive calculation will only run if the num changes, thus avoiding needless expensive rerenders.
+    </td>
+  </tr>
+  <tr>
+    <td>useCallback</td>
+    <td>
+      Similar to <code>useMemo()</code>, useful for reducing performance costs of expensive functions.
+<pre><code>  const { useState, useCallback } = React;
+
+  const add = (fst, snd) => fst + snd;
+
+  const AddTwoThingsComponent = () => {
+
+    const [firstVal, setFirstVal] = useState(10);
+    const incrementFirst = () => setFirstVal(num => num + 1);
+    const decreaseFirst = () => setFirstVal(num => num - 1);
+
+    const [secondVal, setSecondVal] = useState(20);
+    const incrementSecond = () => setSecondVal(num => num + 1);
+    const decreaseSecond = () => setSecondVal(num => num - 1);
+
+    const additionResult = useCallback(add(firstVal, secondVal), [firstVal, secondVal]);
+
+    return (
+      &#x3C;>
+        &#x3C;section className="box">
+          &#x3C;span>{firstVal}&#x3C;/span>
+          &#x3C;button onClick={incrementFirst}>Click to Add 1&#x3C;/button>
+          &#x3C;button onClick={decreaseFirst}>Click to Subtract 1&#x3C;/button>
+        &#x3C;/section>
+        &#x3C;section className="box">
+          &#x3C;span>{secondVal}&#x3C;/span>
+          &#x3C;button onClick={incrementSecond}>Click to Add 1&#x3C;/button>
+          &#x3C;button onClick={decreaseSecond}>Click to Subtract 1&#x3C;/button>
+        &#x3C;/section>
+        &#x3C;div className="box">Result: {additionResult}
+        &#x3C;/div>
+
+      &#x3C;/>
+    )
+  }
+
+  ReactDOM.render(&#x3C;MyComponent />, document.getElementById('root'))
+
+&#x3C;/td>
+</code></pre>
+  </tr>
+  <tr>
+    <td>useRef</td>
+    <td>
+      So, you want to access DOM elements? or even better, you want to access prev state? Great! useRef lets you do that. In the below example, use ref is used to display the previously rendered value and doesn't rely on rerrendering to do so.
+<pre><code>  import React, { useRef };
+
+  export default function App() {
+    const [name, setName] = useState("");
+    const preName = useRef("");
+
+    useEffect(() => {
+      prevName.current = name;
+    }, [name])
+
+    return (
+      &#x3C;>
+        &#x3C;input value={name} onChange={e => setName(e.target.value)}/>
+        &#x3C;div>
+          Hola! Mi nombre es {name} y my nombre era {prevName}.
+        &#x3C;/div>
+      &#x3C;>;
+    );
+  }
+</code></pre>
+  </td>
+  </table>
+There are still more hooks to be covered. However, I'll save these for a future blog post as this is a great stopping point. The above hooks are likely the most useful in practical application. I've personally been aok using only these but I do want to understand the remaining oppportunities so will aim to continue exploring hooks in a future post.
+</br>
+</br>
+<div>Remaining hooks:</div>
+</br>
+<ul>
+    <li>useImperativeHandle</li>
+    <li>useLayoutEffect</li>
+    <li>useDebugValue</li>
+    <li>useDeferredValue</li>
+    <li>useTransition</li>
+    <li>useId</li>
+    <li>useSyncExternalStore</li>
+    <li>useInsertionEffect</li>
+</ul></div><a href="/blog/" data-reactid="38">Go back to the homepage</a></div></div></div></div></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-6910201a14d2a9c8c2e2.js","107818501498521":"component---src-templates-blog-post-js-89e71b83f5b35e725d93.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","35783957827783":"component---src-pages-index-js-74ff30dc37218a983eea.js","218538773642512":"component---src-pages-page-2-js-075954cd9c4544c7dcd8.js","60335399758886":"path----a09ac7f620c7d624c34a.js","194639568508182":"path---react-hooks-b3187fc956d65c202902.js","102613735314385":"path---googling-c587bcde7462c1c4b68c.js","222392949364877":"path---gcp-datastore-887fad5c20fb0f2e1149.js","173763998299307":"path---vst-plugins-3cdb3a46e02d86e91741.js","268610940466939":"path---gcp-nodejs-hello-world-bb146ccd4608dddf7ea0.js","166471649797025":"path---internet-speed-256d13bad3f763e7d650.js","190054208608390":"path---vscode-java-dcb3b4a5d9d2c2b62c1a.js","55794924420876":"path---css-animations-d4d1369f993f54e3205a.js","42577969893322":"path---gitlab-ci-c5eb081481a2a7959455.js","54348758942928":"path---git-worktree-987ae57a2dbfc4e444c6.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-6144ba7aaeb5ad4387e2.js","135728916539164":"path---page-2-a0e39f21c11f6a62c5ab.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-fec31376992d56c478da.js"}/*]]>*/</script><script>/*<![CDATA[*/["/blog/commons-670c1c85e5d86505a7aa.js","/blog/app-6910201a14d2a9c8c2e2.js","/blog/path---react-hooks-b3187fc956d65c202902.js","/blog/component---src-templates-blog-post-js-89e71b83f5b35e725d93.js","/blog/component---src-layouts-index-js-fec31376992d56c478da.js"].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/</script></body></html>
