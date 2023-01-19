@@ -92,8 +92,10 @@ ul#nav li.current a {
   overflow: hidden;
   padding: 0.25em;
   margin-bottom: 50px;
-  border-style: solid dashed;
   border-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .breadcrumbs {

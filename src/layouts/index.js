@@ -38,13 +38,24 @@ const Layout = ({ children }) => (
                 margin: '0 auto',
                 maxWidth: 980,
                 display: 'flex',
-                flexDirection: 'row',
+                flexDirection: 'column',
                 justifyContent: 'space-between',
                 height: '100%',
                 padding: '0 25px',
               }}
             >
               <div style={{ flex: 1 }}>{children()}</div>
+              <div style={{ flex: .66 }}>
+                <Sidebar
+                  title="Hi, I'm Nathan &nbsp; 👋🏻"
+                  description={
+                    <div style={{ padding: "0 10px" }}>
+                      <p>I use this space for writing down things I want to remember for future reference.</p>
+                      <strong>Who am I?</strong>
+                      <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
+                    </div>}
+                />
+              </div>
             </div>
           ) : (
             <div
@@ -66,7 +77,6 @@ const Layout = ({ children }) => (
                   title="Hi, I'm Nathan &nbsp; 👋🏻"
                   description={
                     <div style={{ padding: "0 10px" }}>
-                      <img style={{ borderRadius: 19, padding: 10, marginBottom: 0 }} src={`images/profile-pic.png`} />
                       <p>I use this space for writing down things I want to remember for future reference.</p>
                       <strong>Who am I?</strong>
                       <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
