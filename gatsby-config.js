@@ -1,7 +1,9 @@
+//
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
     title: 'Nathan Phennel Blog',
+    siteUrl: `https://enphnt.github.io/blog/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
