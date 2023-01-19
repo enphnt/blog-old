@@ -4,7 +4,7 @@ date: "2021-10-07T10:16:53.962Z"
 title: "Dev Googling Or: How I Learned to Stop Worrying and Love the Hunt"
 ---
 
-Love them or hate them, the Google gang is now a fact of modern life. Whether you need to know what time it is in Antarctica or you're searching for how to overcome some error encountered for the first time, Google is an powerful tool to leverage.
+Love them or hate them, the Google gang is now a fact of modern life. Whether you need to know what time it is in Antarctica or you're searching for how to overcome some error encountered for the first time, Google is a powerful tool to leverage.
 
 <div class="note">
   <strong>Fun Fact:</strong> In its infancy, Google search was originally called BackRub. This is thought to be an ode to the <a href="https://en.wikipedia.org/wiki/Backlink">backlink</a> retrieval concept of the system. So next time you search, enjoy the free massage.
