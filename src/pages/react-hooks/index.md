@@ -264,7 +264,7 @@ In many ways, hooks lower the bar to entry for React and lets devs focus more on
 
 
   </td>
-  </table>
+  </table style="width: 84vw">
 There are still more hooks to be covered. However, I'll save these for a future blog post as this is a great stopping point. The above hooks are likely the most useful in practical application. I've personally been aok using only these but I do want to understand the remaining oppportunities so will aim to continue exploring hooks in a future post.
 </br>
 </br>

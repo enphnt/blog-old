@@ -1,5 +1,6 @@
 .blog-post {
   margin-bottom: 2em;
+  max-width: 85vw;
 }
 
 .blog-post-preview {
@@ -27,10 +28,11 @@
   line-height: 1em;
 }
 
-h1 > * {
+h1>* {
   font-size: 1.2rem;
   text-decoration-line: none;
 }
+
 h2 {
   font-size: 0.8rem !important;
   font-weight: 100 !important;
