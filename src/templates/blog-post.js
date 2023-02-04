@@ -8,18 +8,17 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <div className="blog-post-container">
+      <div>
         <Helmet title={`Nathan Phennel - ${post.frontmatter.title}`} />
-        <div className="blog-post">
+        <div className="blogPost">
           <div className="breadcrumbs">
-            <Link className="breadcrumb-link" to="/">Home</Link>
-            <div className="breadcrumb-link-separator">{`>`}</div>
-            <Link className="breadcrumb-link" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+            <Link className="breadcrumbLink" to="/">Home</Link>
+            <div className="breadcrumbLink-separator">{`>`}</div>
+            <Link className="breadcrumbLink" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
           </div>
           <h5>Last Updated: {post.frontmatter.date}</h5>
           <h1>{post.frontmatter.title}</h1>
           <div
-            className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <Link to="/">Go back to the homepage</Link>

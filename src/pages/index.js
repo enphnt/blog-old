@@ -7,12 +7,12 @@ export default function Index({ data }) {
 
   return (
     <Layout>
-      <div className="blog-posts">
+      <div>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
             return (
-              <Link to={post.frontmatter.path} className="blog-post-preview" key={post.id}>
+              <Link to={post.frontmatter.path} className="blogPostPreview" key={post.id}>
                 <img src={`static/images${post.frontmatter.path}.png`} alt="blog-post-img" />
                 <div>
                   <h1 style={{ lineHeight: "1em" }}>
