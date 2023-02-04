@@ -94,6 +94,8 @@ ul#nav li.current a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: sticky;
+  top: 90px;
 }
 
 @keyframes fadein {
