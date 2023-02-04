@@ -6,7 +6,10 @@ const Header = () => (
       background: '#f5f5f5',
       marginBottom: '3rem',
       borderBottom: '2px solid #e6e6e6',
-      boxShadow: "6px 2px 24px 8px rgba(0,0,0,.08)"
+      boxShadow: "6px 2px 24px 8px rgba(0,0,0,.08)",
+      /* make it stick to top */
+      position: "sticky",
+      top: 0
     }}
   >
     <header id="home">
