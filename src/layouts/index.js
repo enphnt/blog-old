@@ -70,7 +70,7 @@ const Layout = ({ children }) => (
               }}
             >
               <div style={{ flex: 2.5, paddingRight: '30px' }}>
-                {children()}
+                {children}
               </div>
               <div style={{ flex: .66 }}>
                 <Sidebar
