@@ -17,5 +17,6 @@ After running `npm i`, I needed to update all the peers of gatsby to a higher ve
 
 I was able to finish the install of new packages and render the site successfully using my package script: `npm run develop`
 
-However, now I see massive layout issues and I will move on to restructurig my react components so that they no longer use the `layout.js` as a root component.
+However, now I see massive layout issues and I will move on to restructuring my react components so that they no longer use the `layout.js` as a root component.
 
+after the following steps, which are thankfully documented in the  <a target="_blank" href="https://www.gatsbyjs.com/docs/reference/release-notes/migrating-from-v1-to-v2/">migration guide</a>, I'm up and running again. HAd to do the following steps.

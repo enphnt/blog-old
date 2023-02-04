@@ -7,7 +7,7 @@ title: "Dev Googling: 3 levels of searching"
 Love them or hate them, the Google gang is now a fact of modern life. Whether you need to know what time it is in Antarctica or you're searching for how to overcome some error encountered for the first time, Google is a powerful tool to leverage.
 
 <div class="note">
-  <strong>Fun Fact:</strong> In its infancy, Google search was originally called BackRub. This is thought to be an ode to the <a href="https://en.wikipedia.org/wiki/Backlink">backlink</a> retrieval concept of the system. So next time you search, enjoy the free massage.
+  <strong>Fun Fact:</strong> In its infancy, Google search was originally called BackRub. This is thought to be an ode to the <a target="_blank" href="https://en.wikipedia.org/wiki/Backlink">backlink</a> retrieval concept of the system. So next time you search, enjoy the free massage.
 </div>
 
 #### But are you doing it right?
