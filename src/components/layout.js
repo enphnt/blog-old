@@ -10,6 +10,20 @@ import './styles/layout-override.css';
 
 const title = "Nathan Phennel's Blog";
 
+const bio = (
+  <div style={{ flex: .66 }}>
+    <Sidebar
+      title="Hi, I'm Nathan &nbsp; 👋🏻"
+      description={
+        <div style={{ padding: "0 10px" }}>
+          <p>I use this space for writing down things I want to remember for future reference.</p>
+          <strong>Who am I?</strong>
+          <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
+        </div>}
+    />
+  </div>
+)
+
 const Layout = ({ children }) => (
   <div>
     <Helmet
@@ -44,18 +58,8 @@ const Layout = ({ children }) => (
                 padding: '0 25px',
               }}
             >
-              <div style={{ flex: 1 }}>{children()}</div>
-              <div style={{ flex: .66 }}>
-                <Sidebar
-                  title="Hi, I'm Nathan &nbsp; 👋🏻"
-                  description={
-                    <div style={{ padding: "0 10px" }}>
-                      <p>I use this space for writing down things I want to remember for future reference.</p>
-                      <strong>Who am I?</strong>
-                      <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
-                    </div>}
-                />
-              </div>
+              <div style={{ flex: 1 }}>{children}</div>
+              {bio}
             </div>
           ) : (
             <div
@@ -72,17 +76,7 @@ const Layout = ({ children }) => (
               <div style={{ flex: 2.5, paddingRight: '30px' }}>
                 {children}
               </div>
-              <div style={{ flex: .66 }}>
-                <Sidebar
-                  title="Hi, I'm Nathan &nbsp; 👋🏻"
-                  description={
-                    <div style={{ padding: "0 10px" }}>
-                      <p>I use this space for writing down things I want to remember for future reference.</p>
-                      <strong>Who am I?</strong>
-                      <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
-                    </div>}
-                />
-              </div>
+              {bio}
             </div>
           )
         }
@@ -92,7 +86,7 @@ const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.node,
 };
 
 export default Layout;
