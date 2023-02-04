@@ -6,15 +6,18 @@ const Header = () => (
       background: '#f5f5f5',
       marginBottom: '3rem',
       borderBottom: '2px solid #e6e6e6',
-      boxShadow: "6px 2px 24px 8px rgba(0,0,0,.08)"
+      boxShadow: "6px 2px 24px 8px rgba(0,0,0,.08)",
+      /* make it stick to top */
+      position: "sticky",
+      top: 0
     }}
   >
     <header id="home">
 
       <nav id="nav-wrap">
 
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+        <a className="mobileButton" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a className="mobileButton" href="#home" title="Hide navigation">Hide navigation</a>
 
         <ul id="nav" className="nav">
           <li><a href="https://enphnt.github.io">Home</a></li>

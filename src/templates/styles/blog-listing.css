@@ -1,9 +1,9 @@
-.blog-post {
+.blogPost {
   margin-bottom: 2em;
   max-width: 85vw;
 }
 
-.blog-post-preview {
+.blogPostPreview {
   padding-top: 1em;
   padding-bottom: .5em;
   padding-right: 2px;
@@ -14,18 +14,18 @@
   background-color: #ededef;
 }
 
-.blog-post-preview * {
+.blogPostPreview * {
   background-color: inherit;
 }
 
-.blog-post-preview img {
+.blogPostPreview img {
   margin: 18px;
   padding: 0px;
   width: 140px;
   height: 140px;
 }
 
-.blog-post-preview a {
+.blogPostPreview a {
   line-height: 1em;
 }
 
@@ -45,20 +45,20 @@ h2 {
     line-height: 1.7em;
   }
 
-  .blog-post-preview {
+  .blogPostPreview {
     flex-direction: column;
     padding: 16px;
   }
 
-  .blog-post-preview h1 {
+  .blogPostPreview h1 {
     margin-bottom: 6px;
   }
 
-  .blog-post-preview p {
+  .blogPostPreview p {
     font-size: 85%;
   }
 
-  .blog-post-preview img {
+  .blogPostPreview img {
     margin: 4px;
     align-self: center;
     padding-bottom: 4px;

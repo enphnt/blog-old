@@ -38,10 +38,10 @@ It's a NoSQL style database. It automatically handles things like [sharding](htt
     - run `gcloud app deploy`
 5. Browse your new app: `gcloud app browse`
 
-![gcloud-app-browse-datastore.png](static/images/gcloud-app-browse-datastore.png)
+![gcloud-app-browse-datastore.png](images/gcloud-app-browse-datastore.png)
 6. Inspect the Datastore via the console:
     - Navigate to your project in GCP.
     - Note the latest build status by going to the Cloud Build section of GCP.
     - Check out the latest Datastore entries added:
 
-![datastore-entities.png](static/images/datastore-entities.png)
+![datastore-entities.png](images/datastore-entities.png)

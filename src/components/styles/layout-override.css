@@ -53,7 +53,7 @@ header {
 }
 
 /* hide toggle button */
-#nav-wrap>a.mobile-btn {
+#nav-wrap>a.mobileButton {
   display: none;
 }
 
@@ -118,7 +118,7 @@ ul#nav li.current a {
   text-transform: uppercase;
 }
 
-.breadcrumb-link {
+.breadcrumbLink {
   font-size: .75em;
   text-decoration: none;
   padding-right: 2px;
@@ -127,11 +127,11 @@ ul#nav li.current a {
   font-kerning: auto;
 }
 
-.breadcrumb-link:hover {
+.breadcrumbLink:hover {
   text-decoration: underline;
 }
 
-.breadcrumb-link-separator {
+.breadcrumbLink-separator {
   font-size: .75em;
   margin: 0 4px;
   font-weight: 200;
