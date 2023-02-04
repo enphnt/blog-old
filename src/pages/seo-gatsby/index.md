@@ -6,6 +6,7 @@ title: "Setting up SEO for a Gatsby blog"
 
 Today, I'll be following along the <a href="https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-seo-component/#seo-with-gatsby">Gatsby SEO guide</a>. I'll be following these steps roughly:
 
+1. Gauging my current situation
 1. Verifying my blog meets prerequisites
 1. Adding siteMetadata
 1. Creating a useSiteMetadata hook
@@ -16,6 +17,12 @@ After these steps, I'll do some testing to see if my SEO has improved using goog
 
 
 ### Verifying my blog meets prerequisites
+Unfortunately, this blob is yet to be indexed. Instead of waiting i'll use the google search console to verify the site.
+
+To use search console, I've got to add a meta tag to the site for verification purposes.
+
+
+
 ...
 ### Adding siteMetadata
 ...
