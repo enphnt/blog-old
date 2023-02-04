@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import '../templates/styles/blog-listing.css';
 export default function Index({ data }) {
