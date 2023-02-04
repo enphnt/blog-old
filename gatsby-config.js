@@ -22,8 +22,6 @@ module.exports = {
         name: 'images',
         // Ignore files starting with a dot
         ignore: [`**/\.*`],
-        // Use "mtime" and "inode" to fingerprint files (to check if file has changed)
-        fastHash: true,
       },
     },
     `gatsby-transformer-remark`,
