@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={title}
           meta={[
-            { name: "google-site-verification", content: "XD7FqvzFsRfK_VsXGL75C6BJAh456lWnF48N01S_9GA" },
+            { name: "google-site-verification", content: "5ZNFoMSu47B0gw6uoo6zFERaJU0fE6Sphks60z0AtYc" },
             { name: 'description', content: title },
             { name: 'keywords', content: 'software testing, software development, javascript, software engineer in test' },
           ]}
