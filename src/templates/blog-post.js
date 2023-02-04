@@ -9,7 +9,7 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div>
-        <Helmet title={`Nathan Phennel - ${post.frontmatter.title}`} />
+        <Helmet title={post.frontmatter.title} />
         <div className="blogPost">
           <div className="breadcrumbs">
             <Link className="breadcrumbLink" to="/">Home</Link>
