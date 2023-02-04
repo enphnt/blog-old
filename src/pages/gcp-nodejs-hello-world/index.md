@@ -25,9 +25,9 @@ Deploying a node.js app on GCP standard environment is actually incredibly easy.
 1. Install and Run the app locally: `npm install && npm start`
 
 1. Deploy the app! - from the same root directory of the app, run: `gcloud app deploy` then follow the prompts to select region, etc.
-![gcloud-deploy](static/images/gcloud-deploy.png)
+![gcloud-deploy](images/gcloud-deploy.png)
 1. View the app once it finished deploying: `gcloud app browse`
-![gcloud-app-browse](static/images/gcloud-app-browse.png)
+![gcloud-app-browse](images/gcloud-app-browse.png)
 
 <div class="note">
   <strong>Note:</strong> The default location for a deployment is: <pre>https://PROJECT_ID.REGION_ID.r.appspot.com</pre> Alternatively, you can use: <pre>gcloud app browse</pre> to have the page open for you.

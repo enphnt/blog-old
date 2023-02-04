@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import '../templates/styles/blog-listing.css';
 export default function Index({ data }) {
@@ -13,7 +13,7 @@ export default function Index({ data }) {
           .map(({ node: post }) => {
             return (
               <Link to={post.frontmatter.path} className="blogPostPreview" key={post.id}>
-                <img src={`static/images${post.frontmatter.path}.png`} alt="blog-post-img" />
+                <img src={`images${post.frontmatter.path}.png`} alt="blog-post-img" />
                 <div>
                   <h1 style={{ lineHeight: "1em" }}>
                     {post.frontmatter.title}

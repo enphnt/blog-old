@@ -16,5 +16,5 @@ So if you are on Chrome or Edge, open the console and type the following:
 For example, in my current location, I was able to see that my internet downlink speed currently sits at 1.6Mbps:
 
 <div style="text-align:center">
-  <img src="static/images/downlink.png" alt="downlink" width="500px">
+  <img src="images/downlink.png" alt="downlink" width="500px">
 </div>

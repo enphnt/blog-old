@@ -80,7 +80,7 @@ Wherever you place the * character it will serve as a wildcard and match any phr
 
 For example, you could use it to see what things you could do with javascript:
 <div style="text-align:center">
-  <img src="static/images/google-asterisk.png" alt="google-asterisk" width="500px">
+  <img src="images/google-asterisk.png" alt="google-asterisk" width="500px">
 </div>
 
 ### Lvl 3 - Senior Dev
@@ -99,7 +99,7 @@ These days, HTTPS is reportedly everywhere but unfortunately, some outdated area
 
 For example, let's inspect `guitarcenter.com`:
 <div style="text-align:center">
-  <img src="static/images/google-guitarcenter.png" alt="google-guitarcenter" width="500px">
+  <img src="images/google-guitarcenter.png" alt="google-guitarcenter" width="500px">
 </div>
 
 Ooops... Looks like around ~1500 pages of `guitarcenter.com` remain insecure. They seem to be all within the 'drumoffdev' subdomain which appears to be items for sale in Japan.
@@ -123,5 +123,5 @@ These tools are all reasonably reliable in my testing. Without them, this info w
 I hope some of these are useful for hunting that next thing you need to know and reduce some of the garbage that Google search throws at us.
 
 <div style="text-align:center">
-  <img src="static/images/google-oscar.png" alt="thanks-google" width="500px">
+  <img src="images/google-oscar.png" alt="thanks-google" width="500px">
 </div>

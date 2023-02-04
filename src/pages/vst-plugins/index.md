@@ -25,7 +25,7 @@ According to the course available from Stanford, via Kadenze, Faust is a program
 I think I will actually take the weekly instructor-led course. The course is hosted here currently:
 <div style="text-align:center">
   <a target="_blank" href="https://www.kadenze.com/courses/real-time-audio-signal-processing-in-faust/info">
-    <img src="static/images/stanford.png" alt="stanford-faust-course" width="300px">
+    <img src="images/stanford.png" alt="stanford-faust-course" width="300px">
   </a>
 </div>
 
