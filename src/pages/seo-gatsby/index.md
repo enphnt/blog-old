@@ -17,11 +17,13 @@ After these steps, I'll do some testing to see if my SEO has improved using goog
 
 
 ### Verifying my blog meets prerequisites
-Unfortunately, this blob is yet to be indexed. Instead of waiting i'll use the google search console to verify the site.
+Unfortunately, this blog is yet to be indexed. Instead of waiting i'll use the google search console to verify the site.
 
 To use search console, I've got to add a meta tag to the site for verification purposes.
 
+After deploying the blog which now contains the verification tag, I was successfully able to to verify ownership. Now, google will spend some time crawling the site here at /blog and indexing all the things.
 
+I'll check the results when I look at this again in the next few days.
 
 ...
 ### Adding siteMetadata
