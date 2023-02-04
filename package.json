@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "author": "Nathan Phennel <nathanphennel@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.32.13",
+    "gatsby": "^5.5.0",
     "gatsby-plugin-catch-links": "^2.0.24",
     "gatsby-plugin-react-helmet": "3.0.11",
     "gatsby-source-filesystem": "^2.5.39",
