@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://enphnt.github.io/blog/sitemap/sitemap-0.xml
+Host: https://enphnt.github.io
