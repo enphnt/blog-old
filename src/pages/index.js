@@ -13,7 +13,7 @@ export default function Index({ data }) {
           .map(({ node: post }) => {
             return (
               <Link to={post.frontmatter.path} className="blogPostPreview" key={post.id}>
-                <img src={`images${post.frontmatter.path}.png`} alt="blog-post-img" />
+                <img height={140} width={140} src={`images${post.frontmatter.path}.png`} alt="blog-post-img" />
                 <div>
                   <h1 style={{ lineHeight: "1em" }}>
                     {post.frontmatter.title}

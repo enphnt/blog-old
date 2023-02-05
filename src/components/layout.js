@@ -9,19 +9,17 @@ import Sidebar from '../components/sidebar';
 import './index.css';
 import './styles/layout-override.css';
 
-const title = "Nathan Phennel's Blog";
-
 const bio = (
   <div style={{ flex: .66 }}>
     <Sidebar
       title="Hi, I'm Nathan &nbsp; 👋🏻"
       description={
         <>
-          <img style={{ maxWidth: 190, borderRadius: 19, padding: 10, marginBottom: 0 }} src={`images/profile-pic.png`} alt="profile-pic" />
+          <img style={{ height: 190, width: 190, objectFit: "contain", borderRadius: 19, padding: 10, marginBottom: 0 }} src={`images/profile-pic.png`} alt="profile-pic" />
           <div style={{ padding: "0 10px" }}>
-            <p>I use this space for writing down things I want to remember for future reference.</p>
-            <strong>Who am I?</strong>
-            <p>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
+            <p style={{ fontSize: 13 }}>I use this space for writing down things I want to remember for future reference.</p>
+            <strong style={{ fontSize: 13 }}>Who am I?</strong>
+            <p style={{ fontSize: 13 }}>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
           </div>
         </>}
     />
@@ -30,7 +28,7 @@ const bio = (
 
 const Layout = ({ children }) => (
   <StaticQuery
-    render={data =>
+    render={({ site: { siteMetadata: { title } } }) =>
       <>
         <Helmet
           htmlAttributes={{
