@@ -33,6 +33,9 @@ const Layout = ({ children }) => (
     render={data =>
       <>
         <Helmet
+          htmlAttributes={{
+            lang: 'en',
+          }}
           title={title}
           meta={[
             { name: "google-site-verification", content: "5ZNFoMSu47B0gw6uoo6zFERaJU0fE6Sphks60z0AtYc" },
