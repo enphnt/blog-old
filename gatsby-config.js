@@ -2,7 +2,7 @@
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: "Software, music, innovations and other things worth knowing about. | Nathan Phennel's Blog",
+    title: "Nathan Phennel's Blog | Software, music, innovations and other things worth knowing about.",
     description: "Notes and memos on the things that cross my path.",
     siteUrl: `https://enphnt.github.io/blog/`,
     image: "/images/profile-pic.png"
