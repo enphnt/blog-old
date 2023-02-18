@@ -92,8 +92,16 @@ It was great to get the feedback immediately from Search Console when I popped i
 
 I'll continue waiting and check back soon....
 
+##### Update after a few days
+I've noticed that still the child pages of the site are not being detected by google search. I've decided to address this by registing ownership of the main site at https://enphnt.github.io.
+
+I used the meta tag option to verify ownership successfully.
+
+I then actually requested indexing on the 3 most recent blog posts urls themselves.
+
+In a few days, hopefully I will start to see the bots crawl all the articles successfully.
 
 
 
 ### Conclusion
-...
+...tbd
