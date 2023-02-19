@@ -51,130 +51,128 @@ After that, I updated all the gatsby plugin and peers to their latest v4 version
 Luckily, not too many packages.
 
 On installing, I faced nothing major except a few warnings. I ended up facing more issues when I tried to run `gatsby develop`. Errors looked like:
-<div style="max-height:500px; overflow-y: scroll; overflow-x: visible">
-  <code>
-failed Building production JavaScript and CSS bundles - 4.511s
+</pre style="height: 140px">
+    failed Building production JavaScript and CSS bundles - 4.511s
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve '@gatsbyjs/reach-router/lib/utils' in '/Users/nathanphennel/Projects/blog/.cache'
+    Can't resolve '@gatsbyjs/reach-router/lib/utils' in '/Users/nathanphennel/Projects/blog/.cache'
 
-If you're trying to use a package make sure that '@gatsbyjs/reach-router/lib/utils' is installed. If you're trying to use a local
-file make sure that the path is correct.
+    If you're trying to use a package make sure that '@gatsbyjs/reach-router/lib/utils' is installed. If you're trying to use a local
+    file make sure that the path is correct.
 
-File: .cache/find-path.js:1:0
-
-
-ERROR #98124  WEBPACK
-
-Generating JavaScript bundles failed
-
-Can't resolve 'gatsby-react-router-scroll' in '/Users/nathanphennel/Projects/blog/.cache'
-
-If you're trying to use a package make sure that 'gatsby-react-router-scroll' is installed. If you're trying to use a local file
-make sure that the path is correct.
-
-File: .cache/gatsby-browser-entry.js:1:504
+    File: .cache/find-path.js:1:0
 
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve 'gatsby-link' in '/Users/nathanphennel/Projects/blog/.cache'
+    Can't resolve 'gatsby-react-router-scroll' in '/Users/nathanphennel/Projects/blog/.cache'
 
-If you're trying to use a package make sure that 'gatsby-link' is installed. If you're trying to use a local file make sure that
-the path is correct.
+    If you're trying to use a package make sure that 'gatsby-react-router-scroll' is installed. If you're trying to use a local file
+    make sure that the path is correct.
 
-File: .cache/gatsby-browser-entry.js:1:565
-
-
-ERROR #98124  WEBPACK
-
-Generating JavaScript bundles failed
-
-Can't resolve 'gatsby-script' in '/Users/nathanphennel/Projects/blog/.cache'
-
-If you're trying to use a package make sure that 'gatsby-script' is installed. If you're trying to use a local file make sure that
-the path is correct.
-
-File: .cache/gatsby-browser-entry.js:1:784
+    File: .cache/gatsby-browser-entry.js:1:504
 
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache/head'
+    Can't resolve 'gatsby-link' in '/Users/nathanphennel/Projects/blog/.cache'
 
-If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
-sure that the path is correct.
+    If you're trying to use a package make sure that 'gatsby-link' is installed. If you're trying to use a local file make sure that
+    the path is correct.
 
-File: .cache/head/head-export-handler-for-browser.js:1:1158
-
-
-ERROR #98124  WEBPACK
-
-Generating JavaScript bundles failed
-
-Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache'
-
-If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
-sure that the path is correct.
-
-File: .cache/navigation.js:1:332
+    File: .cache/gatsby-browser-entry.js:1:565
 
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve '@gatsbyjs/reach-router/lib/history' in '/Users/nathanphennel/Projects/blog/.cache'
+    Can't resolve 'gatsby-script' in '/Users/nathanphennel/Projects/blog/.cache'
 
-If you're trying to use a package make sure that '@gatsbyjs/reach-router/lib/history' is installed. If you're trying to use a
-local file make sure that the path is correct.
+    If you're trying to use a package make sure that 'gatsby-script' is installed. If you're trying to use a local file make sure that
+    the path is correct.
 
-File: .cache/navigation.js:1:394
-
-
-ERROR #98124  WEBPACK
-
-Generating JavaScript bundles failed
-
-Can't resolve 'gatsby-link' in '/Users/nathanphennel/Projects/blog/.cache'
-
-If you're trying to use a package make sure that 'gatsby-link' is installed. If you're trying to use a local file make sure that
-the path is correct.
-
-File: .cache/navigation.js:1:456
+    File: .cache/gatsby-browser-entry.js:1:784
 
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache'
+    Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache/head'
 
-If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
-sure that the path is correct.
+    If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
+    sure that the path is correct.
 
-File: .cache/production-app.js:1:153
+    File: .cache/head/head-export-handler-for-browser.js:1:1158
 
 
-ERROR #98124  WEBPACK
+    ERROR #98124  WEBPACK
 
-Generating JavaScript bundles failed
+    Generating JavaScript bundles failed
 
-Can't resolve 'gatsby-react-router-scroll' in '/Users/nathanphennel/Projects/blog/.cache'
+    Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache'
 
-If you're trying to use a package make sure that 'gatsby-react-router-scroll' is installed. If you're trying to use a local file
-make sure that the path is correct.
+    If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
+    sure that the path is correct.
 
-File: .cache/production-app.js:1:226
-  </code>
-</div>
+    File: .cache/navigation.js:1:332
+
+
+    ERROR #98124  WEBPACK
+
+    Generating JavaScript bundles failed
+
+    Can't resolve '@gatsbyjs/reach-router/lib/history' in '/Users/nathanphennel/Projects/blog/.cache'
+
+    If you're trying to use a package make sure that '@gatsbyjs/reach-router/lib/history' is installed. If you're trying to use a
+    local file make sure that the path is correct.
+
+    File: .cache/navigation.js:1:394
+
+
+    ERROR #98124  WEBPACK
+
+    Generating JavaScript bundles failed
+
+    Can't resolve 'gatsby-link' in '/Users/nathanphennel/Projects/blog/.cache'
+
+    If you're trying to use a package make sure that 'gatsby-link' is installed. If you're trying to use a local file make sure that
+    the path is correct.
+
+    File: .cache/navigation.js:1:456
+
+
+    ERROR #98124  WEBPACK
+
+    Generating JavaScript bundles failed
+
+    Can't resolve '@gatsbyjs/reach-router' in '/Users/nathanphennel/Projects/blog/.cache'
+
+    If you're trying to use a package make sure that '@gatsbyjs/reach-router' is installed. If you're trying to use a local file make
+    sure that the path is correct.
+
+    File: .cache/production-app.js:1:153
+
+
+    ERROR #98124  WEBPACK
+
+    Generating JavaScript bundles failed
+
+    Can't resolve 'gatsby-react-router-scroll' in '/Users/nathanphennel/Projects/blog/.cache'
+
+    If you're trying to use a package make sure that 'gatsby-react-router-scroll' is installed. If you're trying to use a local file
+    make sure that the path is correct.
+
+    File: .cache/production-app.js:1:226
+</pre>
 
 To overcome these, I found that its necessary to add gatsby peer deps to the `package.json` for some unknown reason. I saw there was a bit of chatter about deps issues on gatsby's github <a target="_blank" href="https://github.com/gatsbyjs/gatsby/discussions/35313">issues</a>. <a target="_blank" href="https://github.com/gatsbyjs/gatsby/issues/25708">Here</a> I saw I could just bypass issues with the transient deps and just specify compatible versions myself in the `package.json` like so:
 
