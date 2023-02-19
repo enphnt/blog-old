@@ -210,3 +210,8 @@ ul#nav li.current a {
     width: 100%;
   }
 }
+
+.table-of-contents * {
+  line-height: 1;
+  font-size: 14px;
+}
