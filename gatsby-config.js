@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,7 +27,16 @@ module.exports = {
         ignore: [`**/\.*`],
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      mediaType: "audio/mpeg",
+      options: {
+        path: `${__dirname}/static/audio`,
+        name: 'audio',
+        // Ignore files starting with a dot
+        ignore: [`**/\.*`],
+      },
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
