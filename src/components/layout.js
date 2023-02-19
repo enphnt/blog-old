@@ -9,23 +9,6 @@ import Sidebar from '../components/sidebar';
 import './index.css';
 import './styles/layout-override.css';
 
-const bio = (
-  <div style={{ flex: .66 }}>
-    <Sidebar
-      title="Hi, I'm Nathan &nbsp; 👋🏻"
-      description={
-        <>
-          <img style={{ height: 190, width: 190, objectFit: "contain", borderRadius: 19, padding: 10, marginBottom: 0 }} src={`/images/profile-pic.png`} alt="profile-pic" />
-          <div style={{ padding: "0 10px" }}>
-            <p style={{ fontSize: 13 }}>I use this space for writing down things I want to remember for future reference.</p>
-            <strong style={{ fontSize: 13 }}>Who am I?</strong>
-            <p style={{ fontSize: 13 }}>From 9-5, I develop software but after hours I'm playing guitar, drums or keys as a DIY producer. I'm always learning about random things and some end up here.</p>
-          </div>
-        </>}
-    />
-  </div>
-)
-
 const Layout = ({ children }) => (
   <StaticQuery
     render={({ site: { siteMetadata: { title } } }) =>
@@ -67,7 +50,7 @@ const Layout = ({ children }) => (
                   }}
                 >
                   <div style={{ flex: 1 }}>{children}</div>
-                  {bio}
+                  <Sidebar />
                 </div>
               ) : (
                 <div
@@ -84,7 +67,7 @@ const Layout = ({ children }) => (
                   <div style={{ flex: 2.5, paddingRight: '30px' }}>
                     {children}
                   </div>
-                  {bio}
+                  <Sidebar />
                 </div>
               )
             }
