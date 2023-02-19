@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import '../templates/styles/blog-listing.css';
+
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
 
@@ -18,7 +19,7 @@ export default function Index({ data }) {
                   <h1 style={{ lineHeight: "1em" }}>
                     {post.frontmatter.title}
                   </h1>
-                  <h2>Last Updated: {post.frontmatter.date}</h2>
+                  <h6>Last Updated: {post.frontmatter.date}</h6>
                   <p style={{ paddingRight: 10 }}>{post.excerpt}</p>
                 </div>
               </Link>

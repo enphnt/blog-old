@@ -15,7 +15,7 @@ const bio = (
       title="Hi, I'm Nathan &nbsp; 👋🏻"
       description={
         <>
-          <img style={{ height: 190, width: 190, objectFit: "contain", borderRadius: 19, padding: 10, marginBottom: 0 }} src={`images/profile-pic.png`} alt="profile-pic" />
+          <img style={{ height: 190, width: 190, objectFit: "contain", borderRadius: 19, padding: 10, marginBottom: 0 }} src={`/images/profile-pic.png`} alt="profile-pic" />
           <div style={{ padding: "0 10px" }}>
             <p style={{ fontSize: 13 }}>I use this space for writing down things I want to remember for future reference.</p>
             <strong style={{ fontSize: 13 }}>Who am I?</strong>
