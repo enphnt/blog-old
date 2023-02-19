@@ -16,6 +16,8 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+        // Ignore files starting with a dot
+        ignore: [`**/\.*`],
       },
     },
     {
