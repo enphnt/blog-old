@@ -36,4 +36,5 @@
 .largeScreenContent {
     flex: 2.5;
     padding-right: 30px;
+    padding-left: 300px;
 }

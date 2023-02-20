@@ -197,4 +197,7 @@ ul#nav li.current a {
 .table-of-contents {
   line-height: 1;
   font-size: 14px;
+  width: 300px;
+  left: 0;
+  position: fixed;
 }
