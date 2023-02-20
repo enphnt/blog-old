@@ -1,17 +1,8 @@
 import React from 'react';
+import { appBanner } from './styles/styles.module.css';
 
 const Header = () => (
-  <div
-    style={{
-      background: '#f5f5f5',
-      marginBottom: '3rem',
-      borderBottom: '2px solid #e6e6e6',
-      boxShadow: "6px 2px 24px 8px rgba(0,0,0,.08)",
-      /* make it stick to top */
-      position: "sticky",
-      top: 0
-    }}
-  >
+  <div className={appBanner}>
     <header id="home">
 
       <nav id="nav-wrap">

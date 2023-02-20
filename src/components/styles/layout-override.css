@@ -10,7 +10,6 @@ html {
 body {
   height: 100%;
   animation: fadein 2s;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -87,18 +86,14 @@ ul#nav li.current a {
 }
 
 .sidebar {
-  animation: fadeinSidebar 5s cubic-bezier(0.6, -0.28, 0.735, 0.035);
-  box-shadow: 4px 1px 12px 3px rgba(255, 255, 255, 0.08);
-  overflow: hidden;
   padding: 0.25em;
   margin-bottom: 50px;
   font-size: 13px;
-  border-color: #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: sticky;
-  top: 90px;
+  top: 190px;
 }
 
 @keyframes fadein {
@@ -108,18 +103,6 @@ ul#nav li.current a {
 
   to {
     opacity: 1;
-  }
-}
-
-@keyframes fadeinSidebar {
-  from {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0%);
   }
 }
 
@@ -211,7 +194,7 @@ ul#nav li.current a {
   }
 }
 
-.table-of-contents * {
+.table-of-contents {
   line-height: 1;
   font-size: 14px;
 }

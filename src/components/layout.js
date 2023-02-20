@@ -6,8 +6,9 @@ import Media from 'react-media';
 
 import Header from '../components/header';
 import Sidebar from '../components/sidebar';
-import './index.css';
+import './styles/index.css';
 import './styles/layout-override.css';
+import * as styles from './styles/styles.module.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,46 +26,19 @@ const Layout = ({ children }) => (
           ]}
         />
         <Header />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 1500,
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            height: '100%',
-          }}
-        >
+        <div>
           <Media query={{ maxWidth: 848 }}>
-            {matches =>
-              matches ? (
-                <div
-                  style={{
-                    margin: '0 auto',
-                    maxWidth: 980,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between',
-                    height: '100%',
-                    padding: '0 25px',
-                  }}
-                >
-                  <div style={{ flex: 1 }}>{children}</div>
+            {isSmallScreen =>
+              isSmallScreen ? (
+                <div className={styles.smallScreenContainer}>
+                  <div className={styles.smallScreenContent}>
+                    {children}
+                  </div>
                   <Sidebar />
                 </div>
               ) : (
-                <div
-                  style={{
-                    margin: '0 auto',
-                    maxWidth: 1500,
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'space-between',
-                    height: '100%',
-                    padding: '0 25px 75px 25px',
-                  }}
-                >
-                  <div style={{ flex: 2.5, paddingRight: '30px' }}>
+                <div className={styles.largeScreenContainer} >
+                  <div className={styles.largeScreenContent}>
                     {children}
                   </div>
                   <Sidebar />
