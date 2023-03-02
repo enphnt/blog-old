@@ -436,11 +436,11 @@ dd {
 
 p {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 2px;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
-  padding-right: 0;
+  padding-right: 2px;
   padding-top: 0;
 
 }

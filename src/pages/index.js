@@ -20,7 +20,7 @@ export default function Index({ data }) {
                     {post.frontmatter.title}
                   </h1>
                   <h6>Last Updated: {post.frontmatter.date}</h6>
-                  <p style={{ paddingRight: 10 }}>{post.excerpt}</p>
+                  <p>{post.excerpt}</p>
                 </div>
               </Link>
             );
