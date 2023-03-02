@@ -16,7 +16,7 @@
     "gatsby-remark-table-of-contents": "^2.0.0",
     "gatsby-script": "^1.10.0",
     "gatsby-source-filesystem": "^4.25.0",
-    "gatsby-transformer-remark": "^5.25.1",
+    "gatsby-transformer-remark": "^6.7.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.0",
